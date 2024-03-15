@@ -1,0 +1,46 @@
+{
+  "name": "friends-of-hyva/magento2-crawler-session",
+  "description": "Prevent the crawler from creating a session.",
+  "type": "magento2-module",
+  "keywords": [
+    "magento",
+    "magento2",
+    "crawler",
+    "bot",
+    "session",
+    "prevent",
+    "block",
+    "disable"
+  ],
+  "homepage": "https://github.com/friends-of-hyva/magento2-crawler-session",
+  "support": {
+    "issues": "https://github.com/friends-of-hyva/magento2-crawler-session/issues",
+    "source": "https://github.com/friends-of-hyva/magento2-crawler-session"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcus Venghaus",
+      "email": "marcus.venghaus@inklammern.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "magento/framework": "*",
+    "jaybizzle/crawler-detect": "^1.2"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "FriendsOfHyva\\CrawlerSession\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
