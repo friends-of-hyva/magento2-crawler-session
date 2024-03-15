@@ -1,6 +1,6 @@
 # Magento 2 - Crawler Session
 
-## Prevent the crawler from creating a session!
+## Prevent crawlers from creating a session!
 
 It's insane how many requests are coming from crawlers & bots nowadays. Every request creates an unnecessary session.
 If you block the SEO tools via robots.txt there are still plenty of search engines left. 100 requests per minute is not unusal.

@@ -1,6 +1,6 @@
 {
   "name": "friends-of-hyva/magento2-crawler-session",
-  "description": "Prevent the crawler from creating a session.",
+  "description": "Prevent crawlers from creating a session",
   "type": "magento2-module",
   "keywords": [
     "magento",
