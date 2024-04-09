@@ -6,10 +6,10 @@ namespace FriendsOfHyva\CrawlerSession\Model\Service;
 
 use FriendsOfHyva\CrawlerSession\Helper\Config;
 
-readonly class WhitelistService
+class WhitelistService
 {
     public function __construct(
-        private Config $config
+        private readonly Config $config
     ) {
     }
 

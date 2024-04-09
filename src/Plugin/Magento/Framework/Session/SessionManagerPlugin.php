@@ -11,14 +11,14 @@ use FriendsOfHyva\CrawlerSession\Helper\Config;
 use FriendsOfHyva\CrawlerSession\Model\Service\BlacklistService;
 use FriendsOfHyva\CrawlerSession\Model\Service\WhitelistService;
 
-readonly class SessionManagerPlugin
+class SessionManagerPlugin
 {
     public function __construct(
-        private Config $config,
-        private HttpRequest $httpRequest,
-        private BlacklistService $blacklistService,
-        private WhitelistService $whitelistService,
-        private LogService $logService,
+        private readonly Config $config,
+        private readonly HttpRequest $httpRequest,
+        private readonly BlacklistService $blacklistService,
+        private readonly WhitelistService $whitelistService,
+        private readonly LogService $logService,
     ) {
     }
 

@@ -7,11 +7,11 @@ namespace FriendsOfHyva\CrawlerSession\Model\Service;
 use FriendsOfHyva\CrawlerSession\Helper\Config;
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 
-readonly class BlacklistService
+class BlacklistService
 {
     public function __construct(
-        private Config $config,
-        private CrawlerDetect $crawlerDetect
+        private readonly Config $config,
+        private readonly CrawlerDetect $crawlerDetect
     ) {
     }
 
